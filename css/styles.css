@@ -1,5 +1,28 @@
 body{
-   text-align: center;
-    background-color: palegoldenrod;
     font-family: "Arial";
+    font-size: 16px;
+    margin: 15px;
+    padding: 0px;
+    border: 0;
+}
+
+#cabecera{
+    margin: 0;
+    padding:0;
+    border: 0;
+    background-color: purple;
+    font-size: 40px;
+    font-weight: bold ; 
+   
+}
+#container{
+    width: 70%;
+    text-align: center;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+#container h1{
+    font-size: 20px;
+
 }
