@@ -30,6 +30,7 @@ git fetch =>
 git merge => 
 git pull => 
 git remote add origin URL
+git pull origin master --allow-unrelated-histrories => fuerza el marge entre el repo local y el repositorio remoto
 ---------------------git --global => variables globales--------------------------------
  git config --global user.name
 
