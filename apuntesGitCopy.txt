@@ -1,0 +1,64 @@
+--------------------------Comandos basicos en GIT -------------------------------------
+git init -> inicia el repositorio  
+git add -> agrega los documentos al espacio de trabajo 
+git rm -> borra el elemeto que le indiquemos 
+git rm archivo --cahed => borra el area de trabajo el archivo pero mantiene en hdd y commit
+git rm archivoo --force => elimina los archivos de git y del disco duro  
+git commit -> crea un commit   ... -m para agregar un mensaje 
+git checkot => añade todos los cambios de la rama total o pearcialmente 
+git branck => crear una rama 
+git merge rama rama => una las ramas que se le indique. 
+git config => muestran todas las configuraciones de git 
+git config --list => configuracion por defecto de git 
+git log te mestra los cambios generales o de un archivo 
+git show =>  te muesta los cambios del archivo 
+git rest => nos permite volver a un commit anterior 
+git reset id --hard todo vuelve al commit apnuntado
+git reset if --soft los cambios en el area de trabajo se amantiene pero el commit se borra
+git reset head => los cambios no se envian al ltimo commit hasta que se añadan  git add
+git log --stat=> muestra los cambios en bytes hechos en el commmit
+git checkout id archivo  te muesta el archivo en el commit seleccionado
+diff --git archivo muestra las diferencias de archivo 
+git commit -am "Mensaje " => añade todo y hace el commit 
+git branch nombre rama => crea una rama 
+git checkout rama => decide la rama de salida 
+------------------------trabajo remoto ------------------------------------------------
+git clone url => jala el repositiro del entorno remoto 
+git push => manda los commit guardados al repositorio remoto
+git fetch => 
+git merge => 
+git pull => 
+---------------------git --global => variables globales--------------------------------
+ git config --global user.name
+
+------------------------Estado del Archivo --------------------------------------------
+stagitg => añadido o sin añadir
+modificado  => untracked
+commit => cambio aprobado y listo 
+
+master es la rama por defecto 
+La rama bugFixnig => rama para reparar errores en caliente o hot Fix
+
+---------------Cosas por aprender --------------
+VIM 
+
+--------------------------- comando basicos ---------------------------------------------
+Algunos comandos que pueden ayudar cuando colaboren con proyectos muy grandes de github:
+
+git log --oneline - Te muestra el id commit y el título del commit.
+git log --decorate- Te muestra donde se encuentra el head point en el log.
+git log --stat - Explica el número de líneas que se cambiaron brevemente.
+git log -p- Explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.
+git shortlog - Indica que commits ha realizado un usuario, mostrando el usuario y el titulo de sus commits.
+git log --graph --oneline --decorate y
+git log --pretty=format:"%cn hizo un commit %h el dia %cd" - Muestra mensajes personalizados de los commits.
+git log -3 - Limitamos el número de commits.
+git log --after=“2018-1-2” ,
+git log --after=“today” y
+git log --after=“2018-1-2” --before=“today” - Commits para localizar por fechas.
+git log --author=“Name Author” - Commits realizados por autor que cumplan exactamente con el nombre.
+git log --grep=“INVIE” - Busca los commits que cumplan tal cual está escrito entre las comillas.
+git log --grep=“INVIE” –i- Busca los commits que cumplan sin importar mayúsculas o minúsculas.
+git log – index.html- Busca los commits en un archivo en específico.
+git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
+git log > log.txt - guardar los logs en un archivo txt
