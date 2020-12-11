@@ -10,10 +10,9 @@ body{
     margin: 0;
     padding:0;
     border: 0;
-    background-color: purple;
+    background-color: green;
     font-size: 40px;
     font-weight: bold ; 
-   
 }
 #container{
     width: 70%;
