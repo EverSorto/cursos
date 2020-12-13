@@ -31,6 +31,7 @@ git merge =>
 git pull => 
 git remote add origin URL
 git pull origin master --allow-unrelated-histrories => fuerza el marge entre el repo local y el repositorio remoto
+git log --graph
 ---------------------git --global => variables globales--------------------------------
  git config --global user.name
 
@@ -81,3 +82,12 @@ git remote -b -v
 
 cambiar url : 
 git set-url origin 
+
+---------------------Investigar los Aleas de linux -----------------------------------------
+git log --graph --decorate --oneline
+alias nombreAlias="git log --graph --decorate --oneline"
+
+------------------crear un tag de versiones-------------------------------------------------
+git tag -a numero de version (v0.01) -m "Mensaje" objecId
+git tag para ver tag que se tiene 
+git show-ref --tags => para ver que commits tienen un tag 
