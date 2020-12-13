@@ -22,6 +22,9 @@ diff --git archivo muestra las diferencias de archivo
 git commit -am "Mensaje " => añade todo y hace el commit 
 git branch nombre rama => crea una rama 
 git checkout rama => decide la rama de salida 
+git show branch => muestra la historia de la rama 
+gitk => muesta la historia de esa rama en un ainterfaz grafica 
+
 ------------------------trabajo remoto ------------------------------------------------
 git clone url => jala el repositiro del entorno remoto 
 git push => manda los commit guardados al repositorio remoto
