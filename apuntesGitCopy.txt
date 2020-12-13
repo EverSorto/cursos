@@ -68,3 +68,16 @@ git log > log.txt - guardar los logs en un archivo txt
 
 
 fecht es traer Cosaspush es enviar cosas 
+
+-----------------------CREAR UNA LLEVE SSH -------------------------------------------------
+shh-keygen -t rsa -b 4090 -C correo electronico 
+evaluar si el ssh esta corriendo eval $ssh-agent -s) 
+/c/Users/everc/.ssh/id_rsa.pub
+agregar la llave 
+add-ssh direccion de la llave pribada 
+
+ver la url del repo 
+git remote -b -v 
+
+cambiar url : 
+git ser-url origin 
