@@ -91,3 +91,8 @@ alias nombreAlias="git log --graph --decorate --oneline"
 git tag -a numero de version (v0.01) -m "Mensaje" objecId
 git tag para ver tag que se tiene 
 git show-ref --tags => para ver que commits tienen un tag 
+git tag -d nombre tag => borra el tag 
+git push origin master :refs/tags/nombre tag => borra el tag de git 
+
+--------------------Enviar diferentes ramas al servidor ------------------------------------
+
