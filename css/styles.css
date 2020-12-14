@@ -25,3 +25,7 @@ body{
     font-size: 20px;
 
 }
+
+.pieDePagina p {
+background-color: gainsboro;
+}
