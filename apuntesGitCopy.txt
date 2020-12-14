@@ -95,5 +95,4 @@ git tag -d nombre tag => borra el tag
 git push origin master :refs/tags/nombre tag => borra el tag de git 
 
 --------------------Enviar diferentes ramas al servidor ------------------------------------
-Los archivos binarios no deben ser agregados al repositorio
 
