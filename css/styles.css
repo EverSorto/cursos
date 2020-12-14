@@ -1,11 +1,14 @@
 body{
     font-family: "Arial";
-    font-size: 16px;
-    margin: 15px;
+    
     padding: 0px;
     border: 0;
 }
+#container img{
+    width: 150px;
+    height:100px;
 
+}
 #cabecera{
     margin: 0;
     padding:0;
